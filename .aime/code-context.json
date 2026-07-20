@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "project": {
+    "name": "app",
+    "stack": [],
+    "createdAt": "2026-07-20T10:11:50.797Z"
+  },
+  "files": {
+    "package.json": {
+      "lines": 25,
+      "lastModified": "2026-07-20T10:12:46.625Z",
+      "summary": "Package configuration",
+      "exports": [],
+      "imports": []
+    },
+    "tailwind.config.js": {
+      "lines": 7,
+      "lastModified": "2026-07-20T10:12:47.466Z",
+      "summary": "Configuration file",
+      "exports": [
+        "default"
+      ],
+      "imports": []
+    },
+    "postcss.config.js": {
+      "lines": 2,
+      "lastModified": "2026-07-20T10:12:48.083Z",
+      "summary": "Configuration file",
+      "exports": [
+        "default"
+      ],
+      "imports": []
+    },
+    "src/index.css": {
+      "lines": 11,
+      "lastModified": "2026-07-20T10:12:49.083Z",
+      "summary": "Stylesheet",
+      "exports": [],
+      "imports": []
+    },
+    "tsconfig.json": {
+      "lines": 23,
+      "lastModified": "2026-07-20T10:12:50.949Z",
+      "summary": "TypeScript configuration",
+      "exports": [],
+      "imports": []
+    },
+    "src/hooks/useCrudState.ts": {
+      "lines": 64,
+      "lastModified": "2026-07-20T10:12:57.699Z",
+      "summary": "useCrudState hook",
+      "exports": [
+        "CrudItem",
+        "useCrudState"
+      ],
+      "imports": [
+        "react"
+      ]
+    },
+    "src/components/ConfirmDialog.tsx": {
+      "lines": 45,
+      "lastModified": "2026-07-20T10:13:02.094Z",
+      "summary": "ConfirmDialog component",
+      "exports": [
+        "default:ConfirmDialog"
+      ],
+      "imports": [
+        "lucide-react"
+      ]
+    },
+    "src/components/EmptyState.tsx": {
+      "lines": 15,
+      "lastModified": "2026-07-20T10:13:03.236Z",
+      "summary": "EmptyState component",
+      "exports": [
+        "default:EmptyState"
+      ],
+      "imports": [
+        "lucide-react"
+      ]
+    },
+    "src/components/Layout.tsx": {
+      "lines": 76,
+      "lastModified": "2026-07-20T10:13:09.492Z",
+      "summary": "Layout component",
+      "exports": [
+        "default:Layout"
+      ],
+      "imports": [
+        "react-router-dom",
+        "lucide-react"
+      ]
+    },
+    "src/pages/Home.tsx": {
+      "lines": 107,
+      "lastModified": "2026-07-20T10:13:21.490Z",
+      "summary": "Home component",
+      "exports": [
+        "default:Home"
+      ],
+      "imports": [
+        "react",
+        "lucide-react",
+        "../hooks/useCrudState",
+        "../components/ConfirmDialog",
+        "../components/EmptyState"
+      ]
+    },
+    "src/pages/ModelOverview.tsx": {
+      "lines": 48,
+      "lastModified": "2026-07-20T10:13:28.523Z",
+      "summary": "ModelOverview component",
+      "exports": [
+        "default:ModelOverview"
+      ],
+      "imports": []
+    },
+    "src/main.tsx": {
+      "lines": 9,
+      "lastModified": "2026-07-20T10:13:31.491Z",
+      "summary": "main component",
+      "exports": [],
+      "imports": [
+        "react",
+        "react-dom/client",
+        "./App",
+        "./index.css"
+      ]
+    },
+    "src/App.tsx": {
+      "lines": 42,
+      "lastModified": "2026-07-20T10:16:57.263Z",
+      "summary": "App component",
+      "exports": [
+        "default:App"
+      ],
+      "imports": [
+        "react-router-dom",
+        "@aime-platform/aime-feedback-module",
+        "./components/Layout",
+        "./pages/Home",
+        "./pages/ModelOverview"
+      ]
+    },
+    ".aime/blueprint/customers.json": {
+      "lines": 7,
+      "lastModified": "2026-07-20T10:13:39.901Z",
+      "summary": "customers.json",
+      "exports": [],
+      "imports": []
+    },
+    ".aime/blueprint/functions.json": {
+      "lines": 27,
+      "lastModified": "2026-07-20T10:13:42.623Z",
+      "summary": "functions.json",
+      "exports": [],
+      "imports": []
+    },
+    ".aime/blueprint/experiences.json": {
+      "lines": 23,
+      "lastModified": "2026-07-20T10:13:45.424Z",
+      "summary": "experiences.json",
+      "exports": [],
+      "imports": []
+    },
+    ".aime/blueprint/information.json": {
+      "lines": 17,
+      "lastModified": "2026-07-20T10:13:46.747Z",
+      "summary": "information.json",
+      "exports": [],
+      "imports": []
+    },
+    ".aime/blueprint/knowledge.json": {
+      "lines": 27,
+      "lastModified": "2026-07-20T10:13:50.149Z",
+      "summary": "knowledge.json",
+      "exports": [],
+      "imports": []
+    },
+    ".aime/blueprint/services.json": {
+      "lines": 33,
+      "lastModified": "2026-07-20T10:13:52.206Z",
+      "summary": "services.json",
+      "exports": [],
+      "imports": []
+    },
+    ".env.example": {
+      "lines": 7,
+      "lastModified": "2026-07-20T10:13:55.342Z",
+      "summary": ".env.example",
+      "exports": [],
+      "imports": []
+    }
+  },
+  "dependencies": {},
+  "recentChanges": [
+    {
+      "timestamp": "2026-07-20T10:16:57.258Z",
+      "file": "src/App.tsx",
+      "change": "modifyd src/App.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:55.336Z",
+      "file": ".env.example",
+      "change": "modifyd .env.example",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:52.202Z",
+      "file": ".aime/blueprint/services.json",
+      "change": "modifyd .aime/blueprint/services.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:50.146Z",
+      "file": ".aime/blueprint/knowledge.json",
+      "change": "modifyd .aime/blueprint/knowledge.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:46.743Z",
+      "file": ".aime/blueprint/information.json",
+      "change": "modifyd .aime/blueprint/information.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:45.420Z",
+      "file": ".aime/blueprint/experiences.json",
+      "change": "modifyd .aime/blueprint/experiences.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:42.619Z",
+      "file": ".aime/blueprint/functions.json",
+      "change": "modifyd .aime/blueprint/functions.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:39.898Z",
+      "file": ".aime/blueprint/customers.json",
+      "change": "modifyd .aime/blueprint/customers.json",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:36.067Z",
+      "file": "src/App.tsx",
+      "change": "modifyd src/App.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-07-20T10:13:31.487Z",
+      "file": "src/main.tsx",
+      "change": "modifyd src/main.tsx",
+      "type": "modify"
+    }
+  ]
+}
